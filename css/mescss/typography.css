@@ -10,6 +10,8 @@ h2 {
     font-family: "Fira Code", sans-serif;
     font-size: 21px;
     line-height: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 div.home-quotes>div>h4 {
@@ -22,6 +24,8 @@ p {
     font-family: Roboto, sans-serif;
     font-size: 17px;
     line-height: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 div.home-quotes>div>a {
