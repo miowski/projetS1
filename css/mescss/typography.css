@@ -51,9 +51,13 @@ div.home-quotes>div {
     margin-bottom: 76px;
 }
 
-div.home-quotes>div>a, div.legal.buttons>a {
+button > a {
     color: black;
     font-family: "Fira Code", sans-serif;
+}
+
+.art4 > button > a {
+    font-size: 0.95em;
 }
 
 div.home-quotes>div>p {

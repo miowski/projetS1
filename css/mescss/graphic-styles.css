@@ -1,7 +1,7 @@
 /* Barre de navigation */
 
 header > div.menu-bar {
-    background: linear-gradient(#001E29, #000000) ;
+    background: linear-gradient(#001E29, #000000);
 }
 
 object#nav-logo {
@@ -14,8 +14,47 @@ object#nav-bars {
     top: 19px;
 }
 
-main.home > div > div > a {
-    background: linear-gradient(#76F6AE, #23D9A5);
+button {
+    position: relative;
+    padding-right: 2rem;
+    margin: auto;
+    border: none;
     border-radius: 16px;
+    min-width: 315px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+div.home-quotes > div > button {
+    background: linear-gradient(#76F6AE, #23D9A5);
+}
+
+
+button::after {
+    content: ">";
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background-color: white;
+    border-radius:100%;
+    font-size: 1.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+form > input {
+    font-family: "Roboto Thin", sans-serif;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #19B0E6;
+    border-radius: 5px;
+    min-width: 344px;
     padding: 7px;
+    margin-bottom: 10px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+form > input#message {
+    height: 382px;
 }

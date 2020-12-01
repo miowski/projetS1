@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>NetLah - Contact</title>
+    <title>NetLab - Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/layout.css">
@@ -12,7 +12,9 @@
 <body>
 <header>
     <div class="menu-bar">
-        <a class="interface" href="index.html"><object id="nav-logo" data="img/interface/logo-thin.svg" type="image/svg+xml"></object></a>
+        <a class="interface" href="index.html">
+            <object id="nav-logo" data="img/interface/logo-thin.svg" type="image/svg+xml"></object>
+        </a>
         <object id="nav-bars" data="img/interface/menu-bars.svg" type="image/svg+xml"></object>
     </div>
 </header>
@@ -21,13 +23,16 @@
     <p>Vous souhaitiez nous poser une question ou suggérer une modification ?
         Contactez nous via le formulaire suivant :</p>
     <form>
-        <label for="full-name">Votre nom</label>
-        <input type="text" id="full-name" name="full-name"><br>
-        <label for="email">Votre e-mail</label>
-        <input type="text" id="email" name="email">
-        <label for="message">Message</label>
-        <input type="text" id="message" name="message">
+        <label for="full-name"></label>
+        <input type="text" id="full-name" name="full-name" placeholder="Votre nom"><br>
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Votre email"><br>
+        <label for="message"></label>
+        <input type="text" id="message" name="message" placeholder="Message">
     </form>
+    <button>
+        <a>Envoyer</a>
+    </button>
 </main>
 <footer class="about">
     <div class="end">
