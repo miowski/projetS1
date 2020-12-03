@@ -25,8 +25,16 @@ button {
     padding-bottom: 7px;
 }
 
-div.home-quotes > div > button {
+.home-quotes > div > button {
     background: linear-gradient(#76F6AE, #23D9A5);
+}
+
+.suggest > button {
+    background: linear-gradient(#19B0E6, #148DB8);
+}
+
+.about > button {
+    background: linear-gradient(#76F6F6, #19B0E6);
 }
 
 
