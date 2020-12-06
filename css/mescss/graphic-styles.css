@@ -5,13 +5,15 @@ header > div.menu-bar {
 }
 
 header.home {
-    height: 812px;
+    height: 850px;
     background-image: url(../../img/bg-home.png);
     background-size:cover;
     background-position: bottom center;
+    border-bottom-right-radius: 50% 5%;
+    border-bottom-left-radius: 50% 5%
 }
 
-.intro {
+header.home > div.intro {
     position: relative;
     top: 25%;
     display: block;
@@ -24,15 +26,34 @@ header.home {
     background-position: center;
 }
 
-.intro > div.central > h2 {
-    text-align: center;
+header.home > div.intro > div.central {
+    position: relative;
+    top: 65px;
 }
 
-object#nav-logo {
+header.home > div.intro > div.central > h2 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+#logo-large {
+    margin: auto;
+    display: block;
+}
+
+#arrow-next {
+    position: relative;
+    top: 250px;
+    display: block;
+    margin: auto;
+}
+
+#nav-logo {
     padding: 14px;
 }
 
-object#nav-bars {
+#nav-bars {
     position: absolute;
     right: 17px;
     top: 19px;
