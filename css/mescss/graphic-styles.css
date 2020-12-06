@@ -4,6 +4,30 @@ header > div.menu-bar {
     background: linear-gradient(#001E29, #000000);
 }
 
+header.home {
+    height: 812px;
+    background-image: url(../../img/bg-home.png);
+    background-size:cover;
+    background-position: bottom center;
+}
+
+.intro {
+    position: relative;
+    top: 25%;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    vertical-align: center;
+    background-image: url(../../img/logo-curves.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.intro > div.central > h2 {
+    text-align: center;
+}
+
 object#nav-logo {
     padding: 14px;
 }
@@ -12,6 +36,11 @@ object#nav-bars {
     position: absolute;
     right: 17px;
     top: 19px;
+}
+
+.home-quotes {
+    position: relative;
+    top: -27.5px;
 }
 
 button {
