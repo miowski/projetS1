@@ -67,7 +67,6 @@ header.home > div.intro > div.central > h2 {
 button {
     position: relative;
     padding-right: 2rem;
-    margin: auto;
     border: none;
     border-radius: 16px;
     min-width: 315px;
