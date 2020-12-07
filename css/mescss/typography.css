@@ -60,6 +60,12 @@ button > a {
     font-size: 0.95em;
 }
 
+main.about > div.projects > button {
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    text-indent: 20px;
+}
+
 div.home-quotes>div>p {
     text-align: center;
     font-size: 14px;
@@ -91,7 +97,7 @@ footer>div.end>p:nth-child(2) {
 }
 
 footer.home>div.end>p>a, footer.home>div.end>p:nth-child(2) {
-    color: #23D9A5;
+    color: #1cb086;
 }
 
 footer.article>div.end>p>a, footer.article>div.end>p:nth-child(2), main.article>a {
