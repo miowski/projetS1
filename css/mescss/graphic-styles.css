@@ -9,8 +9,8 @@ header.home {
     background-image: url(../../img/bg-home.png);
     background-size:cover;
     background-position: bottom center;
-    border-bottom-right-radius: 50% 5%;
-    border-bottom-left-radius: 50% 5%
+    border-bottom-right-radius: 50% 2.5%;
+    border-bottom-left-radius: 50% 2.5%
 }
 
 header.home > div.intro {
@@ -62,6 +62,22 @@ header.home > div.intro > div.central > h2 {
 .home-quotes {
     position: relative;
     top: -27.5px;
+}
+
+.home-quotes > div > h4 {
+    display: block;
+    margin: auto;
+    background: linear-gradient(#A3EFD9, #9FF9C6);
+    background-color: rgba(0, 0, 0, .42);
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+}
+
+.home-quotes > .art4 {
+    margin-bottom: 30px;
 }
 
 button {
