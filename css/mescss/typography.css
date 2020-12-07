@@ -76,10 +76,8 @@ div.home-quotes>div>img {
     border-radius: 50%;
 }
 
-footer {
-    background-color: #DADADA;
-    padding-top: 6px;
-    padding-bottom: 6px;
+form > input, form > textarea {
+    font-family: "Roboto Thin", sans-serif;
 }
 
 footer>div.end>p {
@@ -89,16 +87,4 @@ footer>div.end>p {
 
 footer>div.end>p:nth-child(2) {
     font-style: italic;
-}
-
-footer.home>div.end>p>a, footer.home>div.end>p:nth-child(2) {
-    color: #1cb086;
-}
-
-footer.article>div.end>p>a, footer.article>div.end>p:nth-child(2), main.article>a {
-    color: #148DB8;
-}
-
-footer.about>div.end>p>a, footer.about>div.end>p:nth-child(2), main.about>div.legal.text>p>a {
-    color: #19B0E6;
 }
