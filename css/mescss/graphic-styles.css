@@ -69,6 +69,7 @@ header.home > div.intro > div.central > h2 {
     margin: auto;
     background: linear-gradient(#A3EFD9, #9FF9C6);
     background-color: rgba(0, 0, 0, .42);
+    margin-top: 6px;
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
