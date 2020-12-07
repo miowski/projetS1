@@ -64,13 +64,12 @@ header.home > div.intro > div.central > h2 {
     top: -27.5px;
 }
 
-.home-quotes > div > h4 {
+.home-quotes > div > h3 {
     display: block;
     margin: auto;
     background: linear-gradient(#A3EFD9, #9FF9C6);
     background-color: rgba(0, 0, 0, .42);
     border-radius: 20px;
-    padding: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
