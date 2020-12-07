@@ -9,3 +9,8 @@ button {
     display: block;
     margin: auto;
 }
+
+footer.about {
+    position: absolute;
+    bottom: 0;
+}
