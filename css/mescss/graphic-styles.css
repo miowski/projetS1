@@ -7,7 +7,7 @@ header > div.menu-bar {
 header.home {
     height: 850px;
     background-image: url(../../img/bg-home.png);
-    background-size:cover;
+    background-size: cover;
     background-position: bottom center;
     border-bottom-right-radius: 50% 2.5%;
     border-bottom-left-radius: 50% 2.5%
@@ -102,6 +102,13 @@ button {
     background: linear-gradient(#76F6F6, #19B0E6);
 }
 
+main.about > div.projects > button {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #19B0E6;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    padding-top: 3px;
+}
 
 button::after {
     content: ">";
@@ -110,7 +117,23 @@ button::after {
     right: 2px;
     top: 2px;
     background-color: white;
-    border-radius:100%;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+main.about > div.projects > button::after {
+    display: none;
+}
+
+main.about > div.projects > button::before {
+    content: ">";
+    position: relative;
+    right: 10px;
+    top: 2px;
+    background-color: white;
+    border-radius: 100%;
     font-size: 1.5rem;
     width: 1.75rem;
     height: 1.75rem;
