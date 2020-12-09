@@ -206,6 +206,35 @@ button#send {
     padding-left: 10px;
 }
 
+.carousel-item > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel > h3 {
+    margin: 0 20px;
+}
+
+ul.carousel-items {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+li.carousel-item {
+    flex: 1 0 220px;
+    padding-right: 1rem;
+    scroll-snap-align: center;
+}
+
+.carousel {
+    background-color: #9FF9C6;
+    color: white;
+    padding: 20px 0;
+}
+
 form > input {
     background-color: rgba(255, 255, 255, 0.6);
     border: 1px solid #19B0E6;
