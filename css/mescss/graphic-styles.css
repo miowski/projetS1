@@ -266,6 +266,10 @@ blockquote#co2-growing-rate {
     left: -1rem;
 }
 
+div.twitter-tweet.twitter-tweet-rendered {
+    height: 445px;
+}
+
 footer {
     background-color: #f2f2f2;
     padding-top: 6px;
