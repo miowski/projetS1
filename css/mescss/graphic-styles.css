@@ -131,6 +131,17 @@ button {
     text-decoration: underline;
 }
 
+.caption {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative;
+    text-indent: 0.2rem;
+    padding: 0.19rem;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    top: -1.9rem;
+}
+
 .suggest > button {
     background: linear-gradient(#19B0E6, #148DB8);
 }
