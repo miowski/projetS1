@@ -40,7 +40,7 @@ div.home-quotes>div>h3 {
 p {
     font-family: Roboto, sans-serif;
     font-size: 17px;
-    line-height: 24px;
+    line-height: 26px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -105,7 +105,7 @@ blockquote#co2-growing-rate {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: italic;
-    line-height: 28px;
+    line-height: 30px;
 }
 
 form > input, form > textarea {
