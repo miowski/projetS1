@@ -11,12 +11,29 @@
 </head>
 <body>
 <header>
-    <div class="menu-bar">
-        <a class="interface" href="index.html">
-            <object id="nav-logo" data="img/interface/logo-thin.svg" type="image/svg+xml"></object>
-        </a>
-        <object id="nav-bars" data="img/interface/menu-bars.svg" type="image/svg+xml"></object>
+    <div class="nav-bar">
+        <img onclick="location.href='index.html'" id="nav-logo" src="img/interface/logo-thin.png" alt="Logo de la nav">
+        <img onclick="document.documentElement.classList.toggle('menu-open')" id="menu-bars" src="img/interface/menu-bars.png" alt="Barres du menu">
     </div>
+    <nav class="menu">
+        <div class="menu-content">
+            <h1>Menu</h1>
+            <h2>Articles</h2>
+            <ul>
+                <li><a href="art1.html">Le manga : Darwin's Game</a></li>
+                <li><a href="art2.html">La sursynchronisation</a></li>
+                <li><a href="art3.html">Concilier web et écologie</a></li>
+                <li><a href="art4.html">L'utilisateur est responsable</a></li>
+            </ul>
+            <h2>À propos</h2>
+            <ul>
+                <li><a href="legal.html">Mentions légales</a></li>
+                <li><a href="projects.html">Autres projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard</p>
+        </div>
+    </nav>
 </header>
 <main class="article">
     <h2>Réduire l'impact du web sur l'environnement</h2>

@@ -1,11 +1,11 @@
 /* Barre de navigation */
 
-header > div.menu-bar {
+header > div.nav-bar {
     background: linear-gradient(#001E29, #000000);
 }
 
 header.home {
-    height: 850px;
+    height: 110%;
     background-image: url(../../img/bg-home.png);
     background-size: cover;
     background-position: bottom center;
@@ -42,21 +42,49 @@ header.home > div.intro > div.central > h2 {
     display: block;
 }
 
-#arrow-next {
-    position: relative;
-    top: 250px;
+.menu {
+    background: black;
+}
+
+.menu-content {
     display: block;
     margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-#nav-logo {
-    padding: 14px;
+.menu-content > h1 {
+    display: block;
+    position: relative;
+    text-align: center;
+    bottom: 45px;
+    margin-top: 0;
+    color: #76F6F6;
 }
 
-#nav-bars {
+.menu-content > h2 {
+    font-size: 20px;
+    color: #76F6F6;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #76F6F6;
+    padding-right: 0;
+    padding-bottom: 8px;
+}
+
+.menu-content > ul > li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.menu-content > ul > li > a {
+    color: #76F6F6;
+}
+
+.menu-content > p {
     position: absolute;
-    right: 17px;
-    top: 19px;
+    bottom: 0;
+    color: #76F6F6;
+    padding-bottom: 10px;
 }
 
 .home-quotes {
@@ -66,18 +94,22 @@ header.home > div.intro > div.central > h2 {
 
 .home-quotes > div > h3 {
     display: block;
+    width: fit-content;
     margin: auto;
+    margin-top: 6px;
     background: linear-gradient(#A3EFD9, #9FF9C6);
     background-color: rgba(0, 0, 0, .42);
-    margin-top: 6px;
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    width: fit-content;
 }
 
 .home-quotes > .art4 {
     margin-bottom: 30px;
+}
+
+.nav-bar > button::after {
+    display: none;
 }
 
 button {

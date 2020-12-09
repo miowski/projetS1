@@ -9,6 +9,7 @@ header.home>h2 {
     text-align: center;
 }
 
+
 h2 {
     color: #0F6A8A;
     font-family: "Fira Code", sans-serif;
@@ -46,6 +47,28 @@ p {
 
 a {
     text-decoration: none;
+}
+
+.menu-content {
+    text-align: right;
+}
+
+.menu-content > h1 {
+    font-family: "Fira Code", serif;
+    font-size: 28px;
+}
+
+.menu-content > ul > li > a {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menu-content > p {
+    font-family: "Fira Code", serif;
+    font-size: 10px;
+    text-align: center;
+    line-height: 13px;
 }
 
 div.home-quotes>div {

@@ -9,28 +9,45 @@
     <link rel="stylesheet" href="css/mescss/layout.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/graphic-styles.css">
+    <link rel="shortcut icon" type="image/png" href="/img/fav/favicon.ico">
 </head>
 <body>
 <header class="home">
-    <div class="menu-bar">
-        <a class="interface" href="index.html">
-            <object id="nav-logo" data="img/interface/logo-thin.svg" type="image/svg+xml"></object>
-        </a>
-        <object id="nav-bars" data="img/interface/menu-bars.svg" type="image/svg+xml"></object>
+    <div class="nav-bar">
+        <img onclick="location.href='index.html'" id="nav-logo" src="img/interface/logo-thin.png" alt="Logo de la nav">
+        <img onclick="document.documentElement.classList.toggle('menu-open')" id="menu-bars" src="img/interface/menu-bars.png" alt="Barres du menu">
     </div>
+    <nav class="menu">
+        <div class="menu-content">
+            <h1>Menu</h1>
+            <h2>Articles</h2>
+            <ul>
+                <li><a href="art1.html">Le manga : Darwin's Game</a></li>
+                <li><a href="art2.html">La sursynchronisation</a></li>
+                <li><a href="art3.html">Concilier web et écologie</a></li>
+                <li><a href="art4.html">L'utilisateur est responsable</a></li>
+            </ul>
+            <h2>À propos</h2>
+            <ul>
+                <li><a href="legal.html">Mentions légales</a></li>
+                <li><a href="projects.html">Autres projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard</p>
+        </div>
+    </nav>
     <div class="intro">
         <div class="central">
-            <object id="logo-large" data="img/logo-large.svg" type="image/svg+xml"></object>
+            <object id="logo-large" data="img/logo-large.svg" type="image/svg+xml">Logo d'introduction</object>
             <h2>Ultra Synchro.</h2>
-            <object id="arrow-next" data="img/interface/arrow-next.svg" type="image/svg+xml"><a
-                    href="#begin-quotes"></a></object>
+            <img onclick="location.href='#begin-quotes'" src="img/interface/arrow-next.png" alt="Flèche de continuité">
         </div>
     </div>
 </header>
 <main class="home">
     <div class="home-quotes">
         <div id="begin-quotes" class="art1">
-            <img src="img/face-1.jpg" alt="">
+            <img src="img/face-1.jpg" alt="Photo de Jeff Gordon">
             <h3>Jeff Gordon</h3>
             <p>Découvrez la toute dernière création de l'incroyable duo Flipflops &ndash; le récit sans pitié d'un
                 sanguinaire jeu à mort et d'une aventure palpitante !</p>
@@ -39,7 +56,7 @@
             </button>
         </div>
         <div class="art2">
-            <img src="img/face-2.jpg" alt="">
+            <img src="img/face-2.jpg" alt="Photo de George Higgins">
             <h3>George Higgins</h3>
             <p>Au rythme auquel s'agrandit internet, ce sera bientôt la première cause du réchauffement climatique. Et
                 les jeux en ligne ne font pas exception à la règle.</p>
@@ -48,7 +65,7 @@
             </button>
         </div>
         <div class="art3">
-            <img src="img/face-3.jpg" alt="">
+            <img src="img/face-3.jpg" alt="Photo d'Amanda Ripley">
             <h3>Amanda Ripley</h3>
             <p>Il est de notre devoir de réduire l'impact du réseau mondial sur notre planète, et les solutions sont
                 nombreuses.</p>
@@ -57,7 +74,7 @@
             </button>
         </div>
         <div class="art4">
-            <img src="img/face-4.jpg" alt="">
+            <img src="img/face-4.jpg" alt="Photo de Leila Chambier">
             <h3>Leila Chambier</h3>
             <p>On remet souvent la pollution de ces data-centers sur le dos des entreprises. Pourtant, l'utilisateur y
                 joue un rôle tout aussi important.</p>

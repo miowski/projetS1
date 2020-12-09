@@ -1,1 +1,11 @@
-<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43"><defs><style>.cls-1{fill:#1af0f0;}</style></defs><title>logo-thin</title><path class="cls-1" d="M21.5154,43.0161A21.5161,21.5161,0,1,1,36.9534,6.513l.352.362L16.1609,28.0186V12.4441H17.185V25.5464L35.8633,6.8686a20.4922,20.4922,0,1,0,6.1146,15.7365L43,22.6591A21.5037,21.5037,0,0,1,21.5154,43.0161Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 43 43" style="enable-background:new 0 0 43 43;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1AF0F0;}
+</style>
+<title>logo-thin</title>
+<path class="st0" d="M21.5,43C9.6,43,0,33.4,0,21.5S9.6,0,21.5,0C27.3,0,32.9,2.3,37,6.5l0.4,0.4L16.2,28V12.4h1v13.1L35.9,6.9
+	C27.8-1,14.8-0.9,6.9,7.2s-7.8,21.1,0.3,29s21.1,7.8,29-0.3c3.5-3.6,5.6-8.3,5.8-13.2l1,0.1C42.4,34.1,33,43,21.5,43z"/>
+</svg>
