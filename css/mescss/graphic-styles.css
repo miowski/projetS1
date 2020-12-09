@@ -126,6 +126,11 @@ button {
     background: linear-gradient(#76F6AE, #23D9A5);
 }
 
+.article > p > a {
+    color: #1CAE84;
+    text-decoration: underline;
+}
+
 .suggest > button {
     background: linear-gradient(#19B0E6, #148DB8);
 }
