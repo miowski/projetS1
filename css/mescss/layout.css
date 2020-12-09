@@ -72,8 +72,8 @@ button {
 #mmi-logo {
     display: block;
     margin: auto;
-    width: 50%;
-    height: auto;
+    height: 5rem;
+    width: auto;
 }
 
 footer.about {
