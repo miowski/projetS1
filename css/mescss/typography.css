@@ -71,11 +71,6 @@ a {
     line-height: 13px;
 }
 
-div.home-quotes>div {
-    text-align: center;
-    margin-bottom: 76px;
-}
-
 button {
     color: black;
     font-family: "Fira Code", sans-serif;
@@ -91,10 +86,15 @@ main.about > div.projects > button {
     text-indent: 20px;
 }
 
+div.home-quotes>div {
+    text-align: center;
+    margin-bottom: 76px;
+}
+
 div.home-quotes>div>p {
     text-align: center;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 21px;
 }
 
 div.home-quotes>div>img {
