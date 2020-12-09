@@ -101,6 +101,13 @@ div.home-quotes>div>img {
     border-radius: 50%;
 }
 
+blockquote#co2-growing-rate {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 28px;
+}
+
 form > input, form > textarea {
     font-family: "Roboto Thin", sans-serif;
 }
