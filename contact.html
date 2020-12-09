@@ -48,7 +48,7 @@
         <label for="message"></label>
         <textarea type="text" id="message" name="message" placeholder="Message"></textarea>
     </form>
-    <button id="send">
+    <button id="send" onclick="DisabledAlert()">
         Envoyer
     </button>
 </main>
@@ -59,4 +59,9 @@
     </div>
 </footer>
 </body>
+<script>
+    function DisabledAlert() {
+        alert("Ce formulaire n'est actuellement pas fonctionnel. Veuillez nous en excuser.");
+    }
+</script>
 </html>
