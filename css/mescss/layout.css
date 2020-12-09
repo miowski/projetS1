@@ -69,6 +69,13 @@ button {
     margin: auto;
 }
 
+#mmi-logo {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
 footer.about {
     position: absolute;
     bottom: 0;

@@ -142,6 +142,17 @@ main.about > div.projects > button {
     padding-top: 3px;
 }
 
+.legal-buttons > button {
+    background: linear-gradient(#76F6F6, #19B0E6);
+    min-width: fit-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 35px;
+    margin-bottom: 0.7rem;
+}
+
 button::after {
     content: ">";
     display: block;
