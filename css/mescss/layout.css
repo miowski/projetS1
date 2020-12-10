@@ -34,6 +34,13 @@ html, body {
     transition: all 0.5s;
 }
 
+
+div.home-quotes>div>img {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+}
+
 .menu {
     z-index: 95;
     position: fixed;
