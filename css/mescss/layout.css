@@ -49,6 +49,10 @@ html, body {
     transform: translateX(0);
 }
 
+.menu-open, .menu-open body {
+    overflow: hidden;
+}
+
 .menu-content {
     padding-right: 5%;
 }
