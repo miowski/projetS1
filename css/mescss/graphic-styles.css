@@ -289,7 +289,7 @@ textarea#message {
     margin-bottom: 10px;
 }
 
-aside {
+blockquote.quote {
     border-left: 3px solid #148DB8;
     padding-left: 1rem;
     position: relative;

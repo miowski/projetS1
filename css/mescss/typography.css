@@ -97,13 +97,12 @@ div.home-quotes>div>p {
     line-height: 21px;
 }
 
-aside {
+blockquote {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: italic;
     line-height: 30px;
     margin-left: 24px;
-    margin-right: 24px;
 }
 
 form > input, form > textarea {
