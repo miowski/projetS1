@@ -15,8 +15,9 @@
 <header>
     <div class="nav-bar">
         <img onclick="location.href='index.html'" id="nav-logo" src="img/interface/logo-thin.png" alt="Logo de la nav">
-        <img onclick="document.documentElement.classList.toggle('menu-open')" id="menu-bars"
-             src="img/interface/menu-bars.png" alt="Barres du menu">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
     </div>
     <nav class="menu">
         <div class="menu-content">
@@ -27,6 +28,7 @@
                 <li><a href="art2.html">La sursynchronisation</a></li>
                 <li><a href="art3.html">Concilier web et écologie</a></li>
                 <li><a href="art4.html">L'utilisateur est responsable</a></li>
+                <li><a href="vox-populi.html">Bonus : micro-trottoir</a></li>
             </ul>
             <h2>À propos</h2>
             <ul>
@@ -40,13 +42,15 @@
 </header>
 <main class="article">
     <h2>Réduire l'impact du web sur l'environnement</h2>
-    <p>La recherche pour réduire l’impact environnemental des datacenters du monde entier est passée au premier plan
-        durant ces dix dernières années.
+    <p>La recherche pour <strong>réduire l’impact environnemental des datacenters</strong> du monde entier est passée
+        au premier plan durant ces dix dernières années.
     </p>
-    <p>Pour rappel, un datacenter est une infrastructure de stockage de données. Ils sont indispensables au
-        fonctionnement d’internet, car ils stockent le contenu de l’ensemble des sites existant sur le réseau.
+    <p>
+        Pour rappel, un datacenter est une infrastructure de stockage de données. Ils sont <strong>indispensables au
+        fonctionnement d’internet</strong>, car ils stockent le contenu de l’ensemble des sites existant sur le réseau.
         Malheureusement, leur responsabilité dans le réchauffement climatique est importante et grandissante. Tout
-        l’enjeu est donc d’optimiser la consommation énergétique, mais surtout le refroidissement de ces serveurs.
+        l’enjeu est donc d’optimiser la consommation énergétique, mais surtout le <strong>refroidissement</strong> de
+        ces serveurs.
     </p>
     <img src="img/dc-upperair.jpg" alt="Upperair datacenter">
     <p class="caption">Un datacenter en Belgique</p>
@@ -58,15 +62,16 @@
             construction de serveurs en Suède</a>, pays froid du Nord de l’Europe. Plus simple encore, un agencement
         intelligent des « racks » (ensemble de disques durs) participe à une importante dissipation de chaleur.
 
-        Cependant, toute cette chaleur peut aussi être réutilisée. Les habitations aux alentours du datacenter peuvent
-        techniquement en bénéficier pour un chauffage domestique. Plus largement, la chaleur est une source d’énergie
-        électrique potentielle facile. Le domaine de la thermodynamique a beaucoup à offrir et exploiter.
+        Cependant, <strong>toute cette chaleur peut aussi être réutilisée</strong>. Les habitations aux alentours du
+        datacenter peuvent techniquement en bénéficier pour un chauffage domestique. Plus largement, la chaleur est une
+        source d’énergie électrique potentielle facile. Le domaine de la thermodynamique a beaucoup à offrir et
+        exploiter.
 
         En ce qui concerne les jeux en réalité augmentée tels Pokémon Go ou Darwin’s Game, il s’agit de trouver une
         solution à la synchronisation permanente entre le joueur et les serveurs du jeu. Il serait envisageable, par
-        exemple, de limiter les synchronisations avec des serveurs « globaux » à une fois par jour, et utiliser du reste
-        de la communication de joueur à joueur de manière plus locale. Cela éliminerait beaucoup de trafic web et
-        réduirait par conséquent les émissions de CO2 liées au jeu.
+        exemple, de <strong>limiter les synchronisations</strong> avec des serveurs « globaux » <strong>à une fois par
+            jour</strong>, et utiliser du reste de la communication de joueur à joueur de manière plus locale. Cela
+        éliminerait beaucoup de trafic web et réduirait par conséquent les émissions de CO2 liées au jeu.
     </p>
     <img src="img/vc-clouds.png" alt="Clouds">
     <p class="caption">L'utilisateur est tout aussi responsable</p>
@@ -75,9 +80,9 @@
         consommation électrique globale du réseau mondial est de la <a href="art4.html">responsabilité de
             l’utilisateur</a>. En effet, celui-ci laisse beaucoup de contenu plus ou moins volontairement sur ces
         datacenters. Les services de « drive » (stockage en ligne de données pour l’utilisateur) et les réseaux sociaux
-        représentent la majorité de ces données d’utilisateur. En tant qu’internaute, nous pouvons donc faire plusieurs
-        choses pour participer à limiter l’impact environnemental d’internet. Par exemple, envoyer des SMS plutôt que
-        des mails, puisque ces derniers incluent beaucoup plus de <a
+        représentent la majorité de ces données d’utilisateur. <strong>En tant qu’internaute</strong>, nous pouvons donc
+        faire plusieurs choses pour participer à <strong>limiter l’impact environnemental d’internet</strong>. Par exemple,
+        envoyer des SMS plutôt que des mails, puisque ces derniers incluent beaucoup plus de <a
                 href="https://fr.wikipedia.org/wiki/M%C3%A9tadonn%C3%A9e">métadonnées</a> et impliquent de plus larges
         transferts. On peut aussi stocker ses fichiers localement, plutôt que sur un espace en ligne dont les disques
         tournent en permanence. Penser à créer des raccourcis pour les sites qu’on utilise le plus est aussi efficace,

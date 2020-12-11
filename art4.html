@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <title>Cutting the Internet's Environmental Footprint: An Analysis of Consumers' Self-Attribution of
-    Responsibility</title>
+        Responsibility</title>
     <meta name="Description" content="Article 4 tiré d'un extrait scientifique">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +16,9 @@
 <header>
     <div class="nav-bar">
         <img onclick="location.href='index.html'" id="nav-logo" src="img/interface/logo-thin.png" alt="Logo de la nav">
-        <img onclick="document.documentElement.classList.toggle('menu-open')" id="menu-bars"
-             src="img/interface/menu-bars.png" alt="Barres du menu">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
     </div>
     <nav class="menu">
         <div class="menu-content">
@@ -28,6 +29,7 @@
                 <li><a href="art2.html">La sursynchronisation</a></li>
                 <li><a href="art3.html">Concilier web et écologie</a></li>
                 <li><a href="art4.html">L'utilisateur est responsable</a></li>
+                <li><a href="vox-populi.html">Bonus : micro-trottoir</a></li>
             </ul>
             <h2>À propos</h2>
             <ul>
@@ -43,37 +45,37 @@
     <h2>Cutting the Internet's Environmental Footprint: An Analysis of Consumers' Self-Attribution of
         Responsibility</h2>
     <p>
-        According to recent forecasts, information, and communication technologies (ICT) could represent more than 14% of
-        the global greenhouse gas emission by 2040, accounting for more than half of the current carbon footprint of the
-        transportation sector (Belkhir & Elmeligi 2018). Given the unprecedented volume of data exchanged on the
-        Internet every day, consumers' online practices require increasing amounts of energy and generate pollution. In
-        particular, the energy consumption of data centers is very high (Guitart 2017).
+        According to recent forecasts, information, and communication technologies (ICT) could represent more than
+        <strong>14% of the global greenhouse gas emission by 2040</strong>, accounting for more than half of the current
+        carbon footprint of the transportation sector (Belkhir & Elmeligi 2018). Given the unprecedented volume of data
+        exchanged on the Internet every day, consumers' online practices require increasing amounts of energy and
+        generate pollution. In particular, the energy consumption of data centers is very high (Guitart 2017).
 
         Every email sent, every video viewed, every request made on a search engine, every file stored on the cloud uses
-        energyintensive
-        servers and indirectly generates greenhouse gases. Although consumers' awareness is still at an early stage,
-        most of the major contributors who drive the Internet's infrastructure have been taking this issue very
-        seriously over the past few years.
+        <strong>energy-intensive servers</strong> and indirectly <strong>generates greenhouse gases</strong>. Although
+        consumers' awareness is still at an early stage, most of the major contributors who drive the Internet's
+        infrastructure have been taking this issue very seriously over the past few years.
 
         Today, the environmental impact of the Internet is not in doubt. The main source of pollution is linked to the
         increasing use of energy-intensive servers.
     </p>
-    <blockquote id="co2-growing-rate">According to a recent study, information and communication technologies generate
-        the same amount of greenhouse gas emissions as the aerospace industry, <b>with a growing rate of 20% per year.</b>
-    </blockquote>
+    <aside id="co2-growing-rate">According to a recent study, information and communication technologies generate
+        the same amount of greenhouse gas emissions as the aerospace industry, <strong>with a growing rate of 20% per
+            year.</strong>
+    </aside>
     <p>
-        Some of the largest Internet companies such as Facebook, Google, or Apple have adopted a 100% renewable energy
-        commitment. Data centers are expected to improve their electricity intensity in the future; however, this will
-        not necessarily solve the problem as the development of more energy-efficient technologies may backfire and
-        result in an increase of the total energy consumption because of an increase in demand. This is known as the
-        Jevons paradox (Blake 2005). In this case, improvements of electricity efficiencies will not be enough to cope
-        with the continuous growth of the global datacenter traffic (Andrae & Edler 2015; Jones 2018).
+        Some of the largest Internet companies such as Facebook, Google, or Apple have adopted a <strong>100% renewable
+        energy commitment</strong>. Data centers are expected to improve their electricity intensity in the future;
+        however, this will not necessarily solve the problem as the development of more energy-efficient technologies
+        may backfire and result in an increase of the total energy consumption because of an increase in demand. This is
+        known as the Jevons paradox (Blake 2005). In this case, improvements of electricity efficiencies will not be
+        enough to cope with the continuous growth of the global datacenter traffic (Andrae & Edler 2015; Jones 2018).
 
         The share of the world population with Internet access is increasing at an impressive pace (from 28.8% in 2010
         to 58.8% in 2019; (Internet World Stats 2019). In this context, individual actions bear considerable weight, and
-        consumers need to be included in the collective effort to reduce the environmental footprint of the ICT sector.
-        The goal of this research project is to understand the implications of this issue from the perspective of
-        consumer behavior.
+        <strong>consumers need to be included in the collective effort to reduce the environmental footprint of the ICT
+            sector</strong>. The goal of this research project is to understand the implications of this issue from the
+        perspective of consumer behavior.
     </p>
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you <a
             href="https://twitter.com/JofInteractive?ref_src=twsrc%5Etfw">@JofInteractive</a>!<br>Currently, the
@@ -99,10 +101,9 @@
 <footer class="article">
     <div class="suggest">
         <h2>À lire ensuite</h2>
-        <p>Cette série d'articles vous a plu ?
-            Vous pouvez consulter les autres projets du département MMI, abordant des sujets similaires.</p>
-        <button onclick="location.href='projects.html'">
-            Autres projets
+        <p>Un aperçu du taux de sensibilisation de l'utilisateur moyen à l'impact environnemental du web</p>
+        <button onclick="location.href='vox-populi.html'" type="button">
+            Micro-trottoir
         </button>
     </div>
     <div class="end">
@@ -112,5 +113,4 @@
 </footer>
 <script async src="https://platform.twitter.com/widgets.js"></script>
 </body>
-
 </html>

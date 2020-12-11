@@ -42,6 +42,47 @@ header.home > div.intro > div.central > h2 {
     display: block;
 }
 
+.nav-toggle {
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+    width: 2.55rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-toggle-bar,
+.nav-toggle-bar::before,
+.nav-toggle-bar::after {
+    content: "";
+    background-color: #76F6F6;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transition: all .4s ease;
+}
+
+.nav-toggle-bar::before {
+    top: -1rem;
+}
+
+.nav-toggle-bar::after {
+    top: 1rem;
+}
+
+.menu-open .nav-toggle-bar {
+    transform: rotate(135deg);
+}
+
+.menu-open .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after {
+    transform: rotate(90deg);
+    top: 0;
+}
+
 .menu {
     background: black;
 }
@@ -51,13 +92,14 @@ header.home > div.intro > div.central > h2 {
     margin: auto;
     padding-right: 15px;
     padding-left: 15px;
+    position: relative;
+    top: -3rem;
 }
 
 .menu-content > h1 {
     display: block;
     position: relative;
     text-align: center;
-    bottom: 45px;
     margin-top: 0;
     color: #76F6F6;
 }
@@ -81,10 +123,7 @@ header.home > div.intro > div.central > h2 {
 }
 
 .menu-content > p {
-    position: absolute;
-    bottom: 0;
     color: #76F6F6;
-    padding-bottom: 10px;
 }
 
 .home-quotes {
@@ -230,7 +269,6 @@ li.carousel-item {
 }
 
 .carousel {
-    background-color: #f2f2f2;
     color: white;
     padding: 20px 0;
 }
@@ -251,12 +289,10 @@ textarea#message {
     margin-bottom: 10px;
 }
 
-blockquote#co2-growing-rate {
-    background-color: #f2f2f2;
+aside {
     border-left: 3px solid #148DB8;
-    padding: 1rem;
+    padding-left: 1rem;
     position: relative;
-    left: -1rem;
 }
 
 div.twitter-tweet.twitter-tweet-rendered {

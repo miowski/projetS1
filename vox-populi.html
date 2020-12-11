@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <title>NetLab - Contact</title>
-    <meta name="Description" content="Page de contact (désactivée)">
+    <title>Micro-trottoir</title>
+    <meta name="Description" content="Article 1 sur Darwin's Game">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/lib/normalize.css">
@@ -40,34 +40,24 @@
         </div>
     </nav>
 </header>
-<main class="about">
-    <h2>Contact</h2>
-    <p>Vous souhaitiez nous poser une question ou suggérer une modification ?
-        Contactez nous via le formulaire suivant :</p>
-    <form>
-        <label for="full-name"></label>
-        <input type="text" id="full-name" name="full-name" placeholder="Votre nom"><br>
-        <label for="email"></label>
-        <input type="text" id="email" name="email" placeholder="Votre email"><br>
-        <label for="message"></label>
-        <textarea id="message" name="message" placeholder="Message"></textarea>
-    </form>
-    <button id="send" onclick="DisabledAlert()">
-        Envoyer
-    </button>
-    <img class="about-bgn" src="img/logo-curves-simple-splitted.png" alt="Logo (courbes)">
+<main>
+    <h2>Micro-trottoir : la pollution liée au web, un sujet encore peu connu</h2>
+    <p>Dans ce micro-trottoir mené auprès d'internautes, nous interrogeons sur l'impact environnemental d'internet.
+        Est-il bien connu à côté de types de pollution plus "conventionnels" et déjà largement discutés ?</p>
 </main>
-<footer class="about">
+<footer class="article">
+    <div class="suggest">
+        <h2>À lire ensuite</h2>
+        <p>Cette série d'articles vous a plu ?
+            Vous pouvez consulter les autres projets du département MMI, abordant des sujets similaires.</p>
+        <button onclick="location.href='projects.html'">
+            Autres projets
+        </button>
+    </div>
     <div class="end">
         <p>Philémon Varret | TDC | <a href="mailto:philemon.varret@gmail.com">e-mail</a></p>
         <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard</p>
     </div>
 </footer>
-<script>
-    function DisabledAlert() {
-        alert("Ce formulaire n'est actuellement pas fonctionnel. Veuillez nous en excuser.");
-    }
-</script>
 </body>
-
 </html>

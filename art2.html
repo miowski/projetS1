@@ -15,8 +15,9 @@
 <header>
     <div class="nav-bar">
         <img onclick="location.href='index.html'" id="nav-logo" src="img/interface/logo-thin.png" alt="Logo de la nav">
-        <img onclick="document.documentElement.classList.toggle('menu-open')" id="menu-bars"
-             src="img/interface/menu-bars.png" alt="Barres du menu">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
     </div>
     <nav class="menu">
         <div class="menu-content">
@@ -27,6 +28,7 @@
                 <li><a href="art2.html">La sursynchronisation</a></li>
                 <li><a href="art3.html">Concilier web et écologie</a></li>
                 <li><a href="art4.html">L'utilisateur est responsable</a></li>
+                <li><a href="vox-populi.html">Bonus : micro-trottoir</a></li>
             </ul>
             <h2>À propos</h2>
             <ul>
@@ -41,16 +43,16 @@
 <main class="article">
     <h2>La sursynchronisation et le traffic réseau</h2>
     <p>Depuis une vingtaine d’années, l’écologie est peu à peu passée au premier plan dans chacune de nos habitudes.
-        Notre utilisation d’internet ne fait pas exception à la règle. Car oui, le fonctionnement du web a un grand
-        impact sur l’environnement ! Chaque interaction faite sur le réseau nécessite l’envoi d’une <a
+        Notre utilisation d’internet ne fait pas exception à la règle. Car oui, le fonctionnement du web a un <strong>grand
+            impact</strong> sur <strong>l’environnement</strong> ! Chaque interaction faite sur le réseau nécessite l’envoi d’une <a
                 href="https://www.inc-conso.fr/content/comment-fonctionne-une-requete-web-et-quel-est-son-impact-avec-lademe">
             requête web</a>.
         L’impact de cette requête varie en fonction du contenu demandé ou envoyé, et de sa taille. Pour un mail sans
         pièces jointes, on parle seulement de quelques kilo-octets. Cependant, lorsque l’on envoie des images, la taille
-        grandit exponentiellement. Une image en HD (1080 pixels de large) fait en moyenne un méga octet. Cela donne des
-        mails généralement cent fois plus gros avec une simple photo !
+            grandit <strong>exponentiellement</strong>. Une image en HD (1080 pixels de large) fait en moyenne un méga octet.
+            Cela donne des mails généralement cent fois plus gros avec une simple photo !
     </p>
-    <p>Qu’en est-il des jeux en réalité augmentée qui font fureur en ce moment ? Pokémon Go en est un bon exemple. Le
+    <p>Qu’en est-il des jeux en <strong>réalité augmentée</strong> qui font fureur en ce moment ? Pokémon Go en est un bon exemple. Le
         concept est assez simple : Les joueurs se servent de leur smartphone pour chasser toutes sortes de créatures,
         appelées « Pokémons ». C’est assez similaire à celui du jeu Darwin’s Game, <a href="art1.html">évoqué
             précédemment par notre éditorial.</a>
@@ -75,23 +77,26 @@
     <h2>Les jeux multijoueur : l'envers du décor</h2>
     <p>Le problème de ce type de jeu est qu’il nécessite de larges quantités de puissance électrique. Le smartphone du
         joueur reste en plein fonctionnement toute la durée de la session. En parallèle, il échange constamment avec les
-        serveurs du jeu via les données mobiles. Il s’agit de garder le profil du joueur à jour, ainsi que le statut des
+        serveurs du jeu via les données mobiles. Il s’agit de <strong>garder le profil du joueur à jour</strong>, ainsi
+        que le statut des
         arènes du monde entier. Pour commencer, la consommation du smartphone de l’utilisateur est problématique. La
-        batterie tient beaucoup moins longtemps et doit être chargée plus souvent. Mais le pire reste la consommation
-        des <a href="https://fr.wikipedia.org/wiki/Centre_de_donn%C3%A9es">datacenters</a>, qui doivent tourner en
-        permanence. Leur importante consommation ne se limite pas à leur simple
-        fonctionnement – ils génèrent une chaleur considérable et doivent être refroidis. On estime que 30 à 60% de
-        l’énergie utilisée par un datacenter part dans son refroidissement. Cela varie en fonction du climat local, de
-        la technologie utilisée et de l’ancienneté de l’infrastructure.
+        batterie tient beaucoup moins longtemps et doit être chargée plus souvent. Mais le pire reste
+        la consommation des <a href="https://fr.wikipedia.org/wiki/Centre_de_donn%C3%A9es">datacenters</a>, qui doivent
+        <strong>tourner en permanence</strong>. Leur importante consommation ne se limite pas à leur simple
+        fonctionnement – ils génèrent une chaleur considérable et doivent être refroidis. <aside>On estime que
+            <strong>30 à 60%</strong> de l’énergie utilisée par un datacenter part dans son<strong>refroidissement</strong>.
+        </aside>
+    <p>
+        Cela varie en fonction du climat local, de la technologie utilisée et de l’ancienneté de l’infrastructure.
     </p>
     <img src="img/dc-inside.jpg" alt="Datacenters">
     <p class="caption">Le stockage des données en image</p>
     <h2>Des solutions à trouver à l'avenir</h2>
-    <p>Le refroidissement de cette chaleur entraîne donc des émissions conséquentes de gaz à effet de serre. Celles-ci
-        ont de nombreux effets néfastes sur l’environnement, et notamment sur l’atmosphère. Au vu du développement
+    <p>Le refroidissement de cette chaleur entraîne donc des émissions conséquentes de <strong>gaz à effet de serre</strong>.
+        Celles-ci ont de nombreux effets néfastes sur l’environnement, et notamment sur l’atmosphère. Au vu du développement
         grandissant d’internet, on estime que les émissions liées aux datacenters augmentent au rythme de
-        <a href="art4.html#co2-growing-rate">20% de plus par an</a>. La recherche de solutions pour réduire les
-        dépenses d’énergie et les gaz à effet de serre est par conséquent de premier plan ces dix dernières années.</p>
+        <a href="art4.html#co2-growing-rate">20% de plus par an</a>. La recherche de solutions pour <strong>réduire les
+            dépenses d’énergie</strong> et les gaz à effet de serre est par conséquent de premier plan ces dix dernières années.</p>
 </main>
 <footer class="article">
     <div class="suggest">

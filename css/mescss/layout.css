@@ -9,13 +9,8 @@ html, body {
     width: 100vw;
 }
 
-#menu-bars {
+.nav-toggle {
     z-index: 100;
-    position: absolute;
-    right: 0;
-    padding: 1.2rem;
-    width: 2.5rem;
-    height: auto;
 }
 
 #nav-logo {
@@ -49,7 +44,7 @@ div.home-quotes>div>img {
     left: 0;
     right: 0;
     transform: translateX(100vw);
-    transition: all 0.5s;
+    transition: all .4s;
 }
 
 .menu-open .menu {
@@ -62,6 +57,11 @@ div.home-quotes>div>img {
 
 .menu-content {
     padding-right: 5%;
+    height: 100%
+}
+
+.menu-content > p {
+    bottom: 1rem;
 }
 
 .central {
