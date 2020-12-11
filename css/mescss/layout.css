@@ -61,6 +61,7 @@ div.home-quotes>div>img {
 }
 
 .menu-content > p {
+    position: fixed;
     bottom: 1rem;
 }
 

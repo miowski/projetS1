@@ -107,7 +107,7 @@ header.home > div.intro > div.central > h2 {
 .menu-content > h2 {
     font-size: 20px;
     color: #76F6F6;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #76F6F6;
     padding-right: 0;
     padding-bottom: 8px;
@@ -115,7 +115,7 @@ header.home > div.intro > div.central > h2 {
 
 .menu-content > ul > li {
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .menu-content > ul > li > a {

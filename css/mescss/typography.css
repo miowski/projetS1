@@ -55,12 +55,12 @@ a {
 
 .menu-content > h1 {
     font-family: "Fira Code", serif;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .menu-content > ul > li > a {
     font-family: Roboto, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
