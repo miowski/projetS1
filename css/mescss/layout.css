@@ -36,6 +36,10 @@ div.home-quotes>div>img {
     height: 56px;
 }
 
+div.projects {
+    margin-bottom: 4rem;
+}
+
 .menu {
     z-index: 95;
     position: fixed;
@@ -95,9 +99,4 @@ img.about-bgn {
     margin: auto;
     height: 5rem;
     width: auto;
-}
-
-footer.about {
-    position: absolute;
-    bottom: 0;
 }
