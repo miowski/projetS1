@@ -40,6 +40,14 @@ div.projects {
     margin-bottom: 4rem;
 }
 
+#legal-last-img {
+    display: block;
+    margin: auto;
+    width: 35%;
+    height: auto;
+    padding: 2rem;
+}
+
 .menu {
     z-index: 95;
     position: fixed;
