@@ -108,3 +108,8 @@ img.about-bgn {
     height: 5rem;
     width: auto;
 }
+
+#vox-populi {
+    display: block;
+    margin: auto;
+}
