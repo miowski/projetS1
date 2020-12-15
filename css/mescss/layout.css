@@ -108,3 +108,8 @@ img.about-bgn {
     height: 5rem;
     width: auto;
 }
+
+#vox-pop {
+    display: block;
+    margin: auto;
+}
