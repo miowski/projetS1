@@ -305,14 +305,14 @@ footer {
     padding-bottom: 6px;
 }
 
-footer.home>div.end>p>a, footer.home>div.end>p:nth-child(2) {
+footer.home > div.end > p > a {
     color: #1cb086;
 }
 
-footer.article>div.end>p>a, footer.article>div.end>p:nth-child(2), main.article>a {
+footer.article > div.end > p > a {
     color: #148DB8;
 }
 
-footer.about>div.end>p>a, footer.about>div.end>p:nth-child(2), main.about>div.legal.text>p>a {
+footer.about > div.end > p > a {
     color: #19B0E6;
 }
