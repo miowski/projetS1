@@ -96,19 +96,19 @@ header.home > div.intro > div.central > h2 {
     top: -3rem;
 }
 
-.menu-content > h1 {
+.menu-content > h3 {
     display: block;
     position: relative;
     text-align: center;
     margin-top: 0;
-    color: #76F6F6;
+    color: #469393;
 }
 
-.menu-content > h2 {
+.menu-content > h4 {
     font-size: 20px;
-    color: #76F6F6;
+    color: #469393;
     margin-bottom: 20px;
-    border-bottom: 1px solid #76F6F6;
+    border-bottom: 1px solid #469393;
     padding-right: 0;
     padding-bottom: 8px;
 }
@@ -123,7 +123,7 @@ header.home > div.intro > div.central > h2 {
 }
 
 .menu-content > p {
-    color: #76F6F6;
+    color: #469393;
 }
 
 .home-quotes {
