@@ -10,4 +10,4 @@ Le site est prévu pour un affichage sur mobile uniquement, et est optimisé pou
 
 # Liens
 
-Vous pouvez retrouver le site fini [ici](projets1.pvarret.fr).
+Vous pouvez retrouver le site fini [ici](https://projets1.pvarret.fr).
